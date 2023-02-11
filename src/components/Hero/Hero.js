@@ -19,7 +19,9 @@ const Hero = (props) => (
         Creative and self-starting Entry level Front-End Developer. Building
         stable websites and apps in fast-paced, collaborative environments.
       </SectionText>
-      <Button onClick={() => window.open("tel:201200975")}>Call Me</Button>
+      <Button onClick={() => window.open("mailto:sayedhany975@gmail.com")}>
+        Email Me
+      </Button>
     </LeftSection>
   </Section>
 );

@@ -15,12 +15,12 @@ import {
 } from "./TechnologiesStyles";
 
 const Technologies = () => (
-  <Section>
+  <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range a technologies in the web development world.
-      development link React JS.
+      development like React JS.
     </SectionText>
     <List>
       <ListItem>

@@ -64,11 +64,16 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section>
+    <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Creative and self-starting Entry level Front-End Developer. Building
-        stable websites and apps in fast-paced, collaborative environments.
+        I'm Sayed Hany, I'm 23 years and I'm from Cairo, I graduated from
+        Menofia University, faculty of science and Pure mathematics and computer
+        science department, and creative and self-starting Entry level Front-End
+        Developer. Building stable websites and apps in fast-paced,
+        collaborative environments. Implementation of apps and landing pages
+        from concept through deployment. Maintaining, optimizing,
+        troubleshooting, and improving websites.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
