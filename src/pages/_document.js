@@ -60,6 +60,11 @@ export default class MyDocument extends Document {
 
           {/* Meta tags for better SEO and performance */}
           <meta name="theme-color" content="#0F1624" />
+          {/* Google Search Console verification */}
+          <meta
+            name="google-site-verification"
+            content="b7KRUsvzEJarLs-h7sNYC8gbpAROU9qbY28eualO4kw"
+          />
           <meta name="msapplication-TileColor" content="#0F1624" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta
