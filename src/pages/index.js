@@ -133,7 +133,7 @@ const Home = ({ seoData }) => {
               sameAs: [
                 "https://github.com/sayedhany",
                 "https://www.linkedin.com/in/sayed-hany-b30946192/",
-                "https://sayed4.netlify.app",
+                "https://sayed-hany-portfolio.vercel.app",
               ],
               workExample: [
                 {
@@ -181,8 +181,8 @@ export const getStaticProps = async () => {
       "🚀 Senior Frontend Developer in Cairo, Egypt specializing in Angular, React, Next.js & TypeScript. 5+ years building enterprise web applications, e-commerce platforms & microservices. Available for hire - Expert in modern JavaScript frameworks, responsive design & performance optimization.",
     keywords:
       "frontend developer Cairo Egypt, hire frontend developer, Angular developer Cairo, React developer Egypt, Next.js developer, TypeScript developer, senior frontend developer, web developer Cairo, JavaScript developer Egypt, frontend engineer, Angular expert, React expert, hire Angular developer, hire React developer, frontend consultant Egypt, web application developer, enterprise frontend developer, e-commerce developer, responsive web design, UI developer Cairo, modern JavaScript developer, frontend architect, Angular NgRx developer, PWA developer, SSR developer, microservices frontend, Sayed Hany developer, frontend team lead, web development services Egypt, custom web development Cairo, frontend development company",
-    url: "https://sayed4.netlify.app",
-    image: "https://sayed4.netlify.app/og-image.jpg",
+    url: "https://sayed-hany-portfolio.vercel.app",
+    image: "https://sayed-hany-portfolio.vercel.app/og-image.jpg",
   };
 
   return {

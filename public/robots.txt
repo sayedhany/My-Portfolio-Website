@@ -5,7 +5,7 @@ Allow: /#tech
 Allow: /#about
 
 # Sitemap
-Sitemap: https://sayed4.netlify.app/sitemap.xml
+Sitemap: https://sayed-hany-portfolio.vercel.app/sitemap.xml
 
 # Disallow crawling of API routes
 Disallow: /api/
@@ -18,6 +18,6 @@ Allow: /images/
 Crawl-delay: 1
 
 # Additional information
-# Website: https://sayed4.netlify.app
+# Website: https://sayed-hany-portfolio.vercel.app
 # Contact: sayedhany975@gmail.com
 # Developer: Sayed Hany - Senior Frontend Developer

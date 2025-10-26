@@ -37,10 +37,13 @@ export default function App({ Component, pageProps }) {
           content="Portfolio website showcasing projects and skills"
         />
         <meta property="og:site_name" content="Sayed Hany Portfolio" />
-        <meta property="og:url" content="https://sayed4.netlify.app" />
+        <meta
+          property="og:url"
+          content="https://sayed-hany-portfolio.vercel.app"
+        />
         <meta
           property="og:image"
-          content="https://sayed4.netlify.app/og-image.jpg"
+          content="https://sayed-hany-portfolio.vercel.app/og-image.jpg"
         />
 
         {/* Twitter Card meta tags */}
@@ -52,7 +55,7 @@ export default function App({ Component, pageProps }) {
         />
         <meta
           name="twitter:image"
-          content="https://sayed4.netlify.app/og-image.jpg"
+          content="https://sayed-hany-portfolio.vercel.app/og-image.jpg"
         />
 
         {/* Default title */}

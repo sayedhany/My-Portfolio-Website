@@ -73,7 +73,10 @@ export default class MyDocument extends Document {
           />
 
           {/* Canonical URL */}
-          <link rel="canonical" href="https://sayed4.netlify.app" />
+          <link
+            rel="canonical"
+            href="https://sayed-hany-portfolio.vercel.app"
+          />
 
           {/* Additional SEO structured data */}
           <script
@@ -83,7 +86,7 @@ export default class MyDocument extends Document {
                 "@context": "https://schema.org",
                 "@type": "WebSite",
                 name: "Sayed Hany Portfolio",
-                url: "https://sayed4.netlify.app",
+                url: "https://sayed-hany-portfolio.vercel.app",
                 description:
                   "Senior Frontend Developer Portfolio showcasing Angular, React, and Next.js expertise",
                 author: {
@@ -92,7 +95,7 @@ export default class MyDocument extends Document {
                 },
                 potentialAction: {
                   "@type": "SearchAction",
-                  target: "https://sayed4.netlify.app/#projects",
+                  target: "https://sayed-hany-portfolio.vercel.app/#projects",
                   "query-input": "required name=search_term_string",
                 },
               }),
