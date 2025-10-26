@@ -10,7 +10,13 @@
   "scope": "/",
   "lang": "en",
   "categories": ["business", "developer", "portfolio", "technology"],
-  "keywords": ["frontend developer", "angular developer", "react developer", "cairo egypt", "web developer"],
+  "keywords": [
+    "frontend developer",
+    "angular developer",
+    "react developer",
+    "cairo egypt",
+    "web developer"
+  ],
   "icons": [
     {
       "src": "/favicon-16x16.png",
@@ -19,14 +25,14 @@
       "purpose": "any"
     },
     {
-      "src": "/favicon-32x32.png", 
+      "src": "/favicon-32x32.png",
       "sizes": "32x32",
       "type": "image/png",
       "purpose": "any"
     },
     {
       "src": "/apple-touch-icon.png",
-      "sizes": "180x180", 
+      "sizes": "180x180",
       "type": "image/png",
       "purpose": "any maskable"
     }

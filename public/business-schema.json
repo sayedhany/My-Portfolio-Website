@@ -37,7 +37,7 @@
         }
       },
       {
-        "@type": "Offer", 
+        "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
           "name": "React Development",
@@ -47,7 +47,7 @@
       {
         "@type": "Offer",
         "itemOffered": {
-          "@type": "Service", 
+          "@type": "Service",
           "name": "E-commerce Development",
           "description": "Full-stack e-commerce platform development"
         }

@@ -25,10 +25,13 @@ const Home = ({ seoData }) => {
         <title>{seoData.title}</title>
         <meta name="description" content={seoData.description} />
         <meta name="keywords" content={seoData.keywords} />
-        
+
         {/* Additional SEO Meta Tags */}
         <meta name="author" content="Sayed Hany" />
-        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta
+          name="robots"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+        />
         <meta name="googlebot" content="index, follow" />
         <meta name="bingbot" content="index, follow" />
         <meta name="language" content="English" />
@@ -36,10 +39,16 @@ const Home = ({ seoData }) => {
         <meta name="geo.placename" content="Cairo" />
         <meta name="geo.position" content="30.0444;31.2357" />
         <meta name="ICBM" content="30.0444, 31.2357" />
-        
+
         {/* Skills and Services */}
-        <meta name="skills" content="Angular, React, Next.js, TypeScript, JavaScript, HTML5, CSS3, Node.js, MongoDB, PostgreSQL" />
-        <meta name="services" content="Frontend Development, Web Application Development, E-commerce Development, Enterprise Software, Team Leadership" />
+        <meta
+          name="skills"
+          content="Angular, React, Next.js, TypeScript, JavaScript, HTML5, CSS3, Node.js, MongoDB, PostgreSQL"
+        />
+        <meta
+          name="services"
+          content="Frontend Development, Web Application Development, E-commerce Development, Enterprise Software, Team Leadership"
+        />
         <meta name="availability" content="Available for hire" />
         <meta name="experience" content="5+ years" />
         <meta name="location" content="Cairo, Egypt" />
@@ -76,52 +85,74 @@ const Home = ({ seoData }) => {
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Cairo",
-                addressCountry: "Egypt"
+                addressCountry: "Egypt",
               },
               alumniOf: {
                 "@type": "EducationalOrganization",
                 name: "Menofia University",
-                department: "Faculty of Science - Pure Mathematics and Computer Science"
+                department:
+                  "Faculty of Science - Pure Mathematics and Computer Science",
               },
               knowsAbout: [
-                "Angular", "React", "Next.js", "TypeScript", "JavaScript", 
-                "HTML5", "CSS3", "SCSS", "TailwindCSS", "Node.js", 
-                "Enterprise Applications", "Microservices", "PWA", "SSR", "NgRx"
+                "Angular",
+                "React",
+                "Next.js",
+                "TypeScript",
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "SCSS",
+                "TailwindCSS",
+                "Node.js",
+                "Enterprise Applications",
+                "Microservices",
+                "PWA",
+                "SSR",
+                "NgRx",
               ],
               hasOccupation: {
                 "@type": "Occupation",
                 name: "Senior Front-End Developer",
                 occupationLocation: {
                   "@type": "City",
-                  name: "Cairo, Egypt"
+                  name: "Cairo, Egypt",
                 },
                 skills: [
-                  "Frontend Development", "Angular Development", "React Development",
-                  "Next.js Development", "TypeScript Programming", "JavaScript Programming",
-                  "Web Application Development", "Enterprise Software Development",
-                  "Team Leadership", "Code Review", "Performance Optimization"
-                ]
+                  "Frontend Development",
+                  "Angular Development",
+                  "React Development",
+                  "Next.js Development",
+                  "TypeScript Programming",
+                  "JavaScript Programming",
+                  "Web Application Development",
+                  "Enterprise Software Development",
+                  "Team Leadership",
+                  "Code Review",
+                  "Performance Optimization",
+                ],
               },
               sameAs: [
                 "https://github.com/sayedhany",
                 "https://www.linkedin.com/in/sayed-hany-b30946192/",
-                "https://sayed4.netlify.app"
+                "https://sayed4.netlify.app",
               ],
               workExample: [
                 {
                   "@type": "CreativeWork",
                   name: "Angular Material Marketplace",
-                  description: "Enterprise-level material marketplace with monorepo architecture",
-                  url: "http://37.27.109.171:4200/customer/"
+                  description:
+                    "Enterprise-level material marketplace with monorepo architecture",
+                  url: "http://37.27.109.171:4200/customer/",
                 },
                 {
-                  "@type": "CreativeWork", 
+                  "@type": "CreativeWork",
                   name: "Full-Stack E-Commerce Platform",
-                  description: "Complete e-commerce solution with modern technologies",
-                  url: "http://egypt-fisher.com/"
-                }
-              ]
-            })
+                  description:
+                    "Complete e-commerce solution with modern technologies",
+                  url: "http://egypt-fisher.com/",
+                },
+              ],
+            }),
           }}
         />
 
@@ -145,9 +176,12 @@ const Home = ({ seoData }) => {
 // Static generation for better performance
 export const getStaticProps = async () => {
   const seoData = {
-    title: "Sayed Hany - Senior Frontend Developer | Hire Angular & React Expert in Cairo Egypt",
-    description: "🚀 Senior Frontend Developer in Cairo, Egypt specializing in Angular, React, Next.js & TypeScript. 5+ years building enterprise web applications, e-commerce platforms & microservices. Available for hire - Expert in modern JavaScript frameworks, responsive design & performance optimization.",
-    keywords: "frontend developer Cairo Egypt, hire frontend developer, Angular developer Cairo, React developer Egypt, Next.js developer, TypeScript developer, senior frontend developer, web developer Cairo, JavaScript developer Egypt, frontend engineer, Angular expert, React expert, hire Angular developer, hire React developer, frontend consultant Egypt, web application developer, enterprise frontend developer, e-commerce developer, responsive web design, UI developer Cairo, modern JavaScript developer, frontend architect, Angular NgRx developer, PWA developer, SSR developer, microservices frontend, Sayed Hany developer, frontend team lead, web development services Egypt, custom web development Cairo, frontend development company",
+    title:
+      "Sayed Hany - Senior Frontend Developer | Hire Angular & React Expert in Cairo Egypt",
+    description:
+      "🚀 Senior Frontend Developer in Cairo, Egypt specializing in Angular, React, Next.js & TypeScript. 5+ years building enterprise web applications, e-commerce platforms & microservices. Available for hire - Expert in modern JavaScript frameworks, responsive design & performance optimization.",
+    keywords:
+      "frontend developer Cairo Egypt, hire frontend developer, Angular developer Cairo, React developer Egypt, Next.js developer, TypeScript developer, senior frontend developer, web developer Cairo, JavaScript developer Egypt, frontend engineer, Angular expert, React expert, hire Angular developer, hire React developer, frontend consultant Egypt, web application developer, enterprise frontend developer, e-commerce developer, responsive web design, UI developer Cairo, modern JavaScript developer, frontend architect, Angular NgRx developer, PWA developer, SSR developer, microservices frontend, Sayed Hany developer, frontend team lead, web development services Egypt, custom web development Cairo, frontend development company",
     url: "https://sayed4.netlify.app",
     image: "https://sayed4.netlify.app/og-image.jpg",
   };

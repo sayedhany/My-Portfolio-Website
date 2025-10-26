@@ -69,7 +69,7 @@ export default class MyDocument extends Document {
 
           {/* Canonical URL */}
           <link rel="canonical" href="https://sayed4.netlify.app" />
-          
+
           {/* Additional SEO structured data */}
           <script
             type="application/ld+json"
@@ -77,22 +77,23 @@ export default class MyDocument extends Document {
               __html: JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "WebSite",
-                "name": "Sayed Hany Portfolio",
-                "url": "https://sayed4.netlify.app",
-                "description": "Senior Frontend Developer Portfolio showcasing Angular, React, and Next.js expertise",
-                "author": {
+                name: "Sayed Hany Portfolio",
+                url: "https://sayed4.netlify.app",
+                description:
+                  "Senior Frontend Developer Portfolio showcasing Angular, React, and Next.js expertise",
+                author: {
                   "@type": "Person",
-                  "name": "Sayed Hany"
+                  name: "Sayed Hany",
                 },
-                "potentialAction": {
+                potentialAction: {
                   "@type": "SearchAction",
-                  "target": "https://sayed4.netlify.app/#projects",
-                  "query-input": "required name=search_term_string"
-                }
-              })
+                  target: "https://sayed4.netlify.app/#projects",
+                  "query-input": "required name=search_term_string",
+                },
+              }),
             }}
           />
-          
+
           {/* Favicon and app icons */}
           <link rel="icon" href="/favicon.ico" />
           <link
