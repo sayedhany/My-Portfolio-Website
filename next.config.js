@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Enable static export for deployment
+  output: 'export',
+  trailingSlash: true,
+  
   // Enable SWC minification for better performance
   swcMinify: true,
 
@@ -11,8 +15,9 @@ const nextConfig = {
     removeConsole: process.env.NODE_ENV === "production",
   },
 
-  // Optimize images
+  // Optimize images for static export
   images: {
+    unoptimized: true, // Required for static export
     formats: ["image/webp", "image/avif"],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],

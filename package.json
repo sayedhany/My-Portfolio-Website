@@ -7,10 +7,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export",
+    "export": "next build",
+    "build:static": "next build",
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "deploy": "next build"
   },
   "dependencies": {
     "next": "^13.2.3",
