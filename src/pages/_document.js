@@ -63,7 +63,7 @@ export default class MyDocument extends Document {
           {/* Google Search Console verification */}
           <meta
             name="google-site-verification"
-            content="b7KRUsvzEJarLs-h7sNYC8gbpAROU9qbY28eualO4kw"
+            content="zSI-x4__qTHy4lelqmAl0_erYwrpvFF3ipo2bhZN6QY"
           />
           <meta name="msapplication-TileColor" content="#0F1624" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
