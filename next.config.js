@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // Enable static export for deployment
-  output: 'export',
+  output: "export",
   trailingSlash: true,
-  
+
   // Enable SWC minification for better performance
   swcMinify: true,
 
