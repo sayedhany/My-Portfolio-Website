@@ -6,13 +6,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
+    "build:static": "next build && next export",
     "start": "next start",
-    "export": "next build",
-    "build:static": "next build",
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
-    "deploy": "next build"
+    "deploy": "pnpm run build && pnpm run export"
   },
   "dependencies": {
     "next": "^13.2.3",

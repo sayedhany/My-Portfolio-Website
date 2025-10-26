@@ -1,4 +1,3 @@
-import { GetStaticProps } from "next";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 import BgAnimation from "../components/BackgrooundAnimation/BackgroundAnimation";
@@ -190,8 +189,6 @@ export const getStaticProps = async () => {
     props: {
       seoData,
     },
-    // Revalidate every 24 hours for fresh content
-    revalidate: 86400,
   };
 };
 

@@ -23,28 +23,9 @@ const nextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
 
-  // Headers for better caching and security
-  async headers() {
-    return [
-      {
-        source: "/(.*)",
-        headers: [
-          {
-            key: "X-Content-Type-Options",
-            value: "nosniff",
-          },
-          {
-            key: "X-Frame-Options",
-            value: "DENY",
-          },
-          {
-            key: "X-XSS-Protection",
-            value: "1; mode=block",
-          },
-        ],
-      },
-    ];
-  },
+  // Note: `headers()` was removed to remain compatible with `output: "export"`.
+  // For static deployments (Netlify), set HTTP headers in your platform config
+  // (e.g. `netlify.toml`) instead of Next.js headers() when using `next export`.
 
   webpack(config, { isServer, dev }) {
     config.experiments = {
