@@ -67,27 +67,28 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I'm Sayed Hany, I'm 23 years and I'm from Cairo, I graduated from
-        Menofia University, faculty of science and Pure mathematics and computer
-        science department, and creative and self-starting Entry level Front-End
-        Developer. Building stable websites and apps in fast-paced,
-        collaborative environments. Implementation of apps and landing pages
-        from concept through deployment. Maintaining, optimizing,
-        troubleshooting, and improving websites.
+        I'm Sayed Hany, a 26-year-old Senior Front-End Developer based in Cairo,
+        Egypt. I graduated from Menofia University with a degree in Pure
+        Mathematics and Computer Science. With extensive experience in Angular,
+        Next.js, and modern JavaScript frameworks, I specialize in building
+        enterprise-level applications and scalable web solutions. I have
+        successfully led development teams, mentored junior developers, and
+        delivered complex projects including multi-tenant marketplaces and
+        full-stack e-commerce platforms. I'm passionate about clean code,
+        performance optimization, and implementing cutting-edge technologies to
+        create exceptional user experiences.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
               key={index}
-              final={index === TOTAL_CAROUSEL_COUNT}
-            >
+              final={index === TOTAL_CAROUSEL_COUNT}>
               <CarouselItem
                 index={index}
                 id={`carousel__item-${index}`}
                 active={activeItem}
-                onClick={(e) => handleClick(e, index)}
-              >
+                onClick={(e) => handleClick(e, index)}>
                 <CarouselItemTitle>
                   {`${item.year}`}
                   <CarouselItemImg
@@ -95,8 +96,7 @@ const Timeline = () => {
                     height="6"
                     viewBox="0 0 208 6"
                     fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <path
                       fill-rule="evenodd"
                       clip-rule="evenodd"
@@ -111,8 +111,7 @@ const Timeline = () => {
                         y1="0.5"
                         x2="208"
                         y2="0.500295"
-                        gradientUnits="userSpaceOnUse"
-                      >
+                        gradientUnits="userSpaceOnUse">
                         <stop stop-color="white" />
                         <stop
                           offset="0.79478"
@@ -137,8 +136,7 @@ const Timeline = () => {
               index={index}
               active={activeItem}
               onClick={(e) => handleClick(e, index)}
-              type="button"
-            >
+              type="button">
               <CarouselButtonDot active={activeItem} />
             </CarouselButton>
           );

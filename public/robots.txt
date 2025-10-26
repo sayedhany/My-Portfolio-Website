@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+Allow: /#projects
+Allow: /#tech
+Allow: /#about
+
+# Sitemap
+Sitemap: https://sayed4.netlify.app/sitemap.xml
+
+# Disallow crawling of API routes
+Disallow: /api/
+
+# Allow all image files
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Crawl delay for better server performance
+Crawl-delay: 1
+
+# Additional information
+# Website: https://sayed4.netlify.app
+# Contact: sayedhany975@gmail.com
+# Developer: Sayed Hany - Senior Frontend Developer

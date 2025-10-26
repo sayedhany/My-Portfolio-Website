@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Sayed Hany - Frontend Development Services",
+  "description": "Professional frontend development services specializing in Angular, React, and Next.js applications. Based in Cairo, Egypt.",
+  "url": "https://sayed4.netlify.app",
+  "telephone": "+201201500975",
+  "email": "sayedhany975@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Cairo",
+    "addressCountry": "Egypt"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "30.0444",
+    "longitude": "31.2357"
+  },
+  "sameAs": [
+    "https://github.com/sayedhany",
+    "https://www.linkedin.com/in/sayed-hany-b30946192/"
+  ],
+  "serviceArea": {
+    "@type": "Country",
+    "name": "Egypt"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Frontend Development Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Angular Development",
+          "description": "Enterprise Angular application development with TypeScript and NgRx"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "itemOffered": {
+          "@type": "Service",
+          "name": "React Development",
+          "description": "Modern React application development with Next.js and TypeScript"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "E-commerce Development",
+          "description": "Full-stack e-commerce platform development"
+        }
+      }
+    ]
+  }
+}

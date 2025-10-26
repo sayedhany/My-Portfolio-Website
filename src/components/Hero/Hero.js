@@ -13,14 +13,16 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle>
         I'M SAYED HANY <br />
-        FRONTEND DEVELOPER
+        SENIOR FRONTEND DEVELOPER
       </SectionTitle>
       <SectionText>
-        Creative and self-starting Entry level Front-End Developer. Building
-        stable websites and apps in fast-paced, collaborative environments.
+        Experienced Senior Front-End Developer specializing in Angular, Next.js,
+        and modern JavaScript frameworks. Building scalable, enterprise-level
+        applications with exceptional user experiences and performance
+        optimization.
       </SectionText>
       <Button onClick={() => window.open("mailto:sayedhany975@gmail.com")}>
-        Email Me
+        Let's Connect
       </Button>
     </LeftSection>
   </Section>

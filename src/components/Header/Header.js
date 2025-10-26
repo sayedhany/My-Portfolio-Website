@@ -17,10 +17,10 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-        </a>
+      <Link
+        href="/"
+        style={{ display: "flex", alignItems: "center", color: "white" }}>
+        <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
       </Link>
     </Div1>
     <Div2>
@@ -46,8 +46,7 @@ const Header = () => (
       </SocialIcons>
       <SocialIcons
         target="_blank"
-        href="https://www.linkedin.com/in/sayed-hany-b30946192/"
-      >
+        href="https://www.linkedin.com/in/sayed-hany-b30946192/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
       <SocialIcons target="_blank" href="mailto:sayedhany975@gmail.com">

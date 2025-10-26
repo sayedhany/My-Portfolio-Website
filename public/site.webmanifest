@@ -1,0 +1,42 @@
+{
+  "name": "Sayed Hany - Senior Frontend Developer Portfolio",
+  "short_name": "Sayed Hany Portfolio",
+  "description": "Senior Frontend Developer specializing in Angular, React, Next.js. Available for hire in Cairo, Egypt. Expert in enterprise web applications and e-commerce development.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F1624",
+  "theme_color": "#0F1624",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["business", "developer", "portfolio", "technology"],
+  "keywords": ["frontend developer", "angular developer", "react developer", "cairo egypt", "web developer"],
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-32x32.png", 
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180", 
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/og-image.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg",
+      "label": "Homepage of Sayed Hany's portfolio showing his projects and skills"
+    }
+  ]
+}

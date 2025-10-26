@@ -41,6 +41,29 @@ const Projects = () => (
               ))}
             </TagList>
           </div>
+          {p.subApps && (
+            <div style={{ marginTop: "1rem" }}>
+              <TitleContent>Applications</TitleContent>
+              <div
+                style={{
+                  display: "flex",
+                  marginTop: "0.5rem",
+                  marginBottom: "1rem",
+                  justifyContent: "center",
+                  gap: "0.5rem",
+                }}>
+                {p.subApps.map((app, index) => (
+                  <ExternalLinks
+                    key={index}
+                    target="_blank"
+                    href={app.url}
+                    style={{ fontSize: "0.9rem", padding: "0.3rem 0.8rem" }}>
+                    {app.name}
+                  </ExternalLinks>
+                ))}
+              </div>
+            </div>
+          )}
           <UtilityList>
             <ExternalLinks target="_blank" href={p.visit}>
               Code

@@ -2,10 +2,15 @@
   "name": "portfolio_nextjs",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@10.19.0",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start"
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "analyze": "cross-env ANALYZE=true next build",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "next": "^13.2.3",

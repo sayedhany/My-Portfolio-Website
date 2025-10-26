@@ -1,5 +1,6 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiFirebase, DiReact, DiAngularSimple } from "react-icons/di";
+import { SiNextdotjs, SiTypescript, SiTailwindcss } from "react-icons/si";
 import {
   Section,
   SectionDivider,
@@ -19,43 +20,86 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      development like React JS.
+      As a Senior Front-End Developer, I specialize in modern web technologies
+      and frameworks. I have extensive experience building scalable,
+      enterprise-level applications with cutting-edge tools.
     </SectionText>
     <List>
+      <ListItem>
+        <picture>
+          <DiAngularSimple size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Angular Ecosystem</ListTitle>
+          <ListParagraph>
+            Expert in Angular 15+
+            <br />
+            TypeScript, RxJS, NgRx
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <SiNextdotjs size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>React & Next.js</ListTitle>
+          <ListParagraph>
+            Advanced React patterns
+            <br />
+            Next.js 13+, SSR, SSG
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <SiTypescript size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Modern JavaScript</ListTitle>
+          <ListParagraph>
+            TypeScript Expert
+            <br />
+            ES6+, Module Systems
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <SiTailwindcss size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Styling & UI</ListTitle>
+          <ListParagraph>
+            CSS3, SCSS, TailwindCSS
+            <br />
+            Material-UI, Styled Components
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiFirebase size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Backend & Tools</ListTitle>
+          <ListParagraph>
+            Node.js, Firebase
+            <br />
+            RESTful APIs, GraphQL
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
       <ListItem>
         <picture>
           <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Architecture & Performance</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Some knowledge with <br />
-            tools like Figma
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Algorithms and Data Structure</ListTitle>
-          <ListParagraph>
-            knowledge with <br />
-            Algorithms and Data Structure
+            Micro-frontends, PWAs
+            <br />
+            Performance optimization
           </ListParagraph>
         </ListContainer>
       </ListItem>
